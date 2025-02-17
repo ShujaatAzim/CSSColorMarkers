@@ -1,0 +1,109 @@
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  margin: auto;
+  width: 50%;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 20px auto;
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+  display: inline-block;
+}
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 rgb(9, 9, 125);
+}
+
+.yellow {
+  background: linear-gradient(hsl(55, 74%, 34%), hsl(60, 90%, 60%), hsl(55, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(108, 108, 49);
+}
+
+.cyan {
+  background: linear-gradient(hsl(175, 74%, 34%), hsl(180, 90%, 60%), hsl(170, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(45, 131, 153);
+}
+
+.magenta {
+  background: linear-gradient(hsl(295, 74%, 34%), hsl(300, 90%, 60%), hsl(290, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(98, 30, 101);
+}
+
+.orange {
+  background: linear-gradient(hsl(25, 74%, 34%), hsl(30, 90%, 60%), hsl(20, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(122, 73, 17);
+
+}
+
+.spring {
+  background: linear-gradient(hsl(145, 74%, 34%), hsl(150, 90%, 60%), hsl(140, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(18, 86, 40);
+}
+
+.violet {
+  background: linear-gradient(hsl(265, 74%, 34%), hsl(270, 90%, 60%), hsl(260, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(61, 23, 78);
+}
+
+.chartreuse {
+  background: linear-gradient(hsl(85, 74%, 34%), hsl(90, 90%, 60%), hsl(80, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(49, 71, 20);
+}
+
+.azure {
+  background: linear-gradient(hsl(205, 74%, 34%), hsl(210, 90%, 60%), hsl(200, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(30, 60, 93);
+}
+
+.rose {
+  background: linear-gradient(hsl(325, 74%, 34%), hsl(330, 90%, 60%), hsl(320, 66%, 32%));
+  box-shadow: 0 0 20px 0 rgb(82, 25, 52);
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: pre;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
