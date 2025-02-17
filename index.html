@@ -11,7 +11,7 @@
     <h1>CSS Color Markers</h1>
     <div class="container">
       <fieldset>
-        <legend>Primary Colors</legend>
+        <legend class="legend" rank="primary"><strong>Primary Colors</strong></legend>
         <div class="marker red" marker-color="Red Marker" rgb-color="rgb(245, 62, 113)" hex-color="#F53E71" hsl-color="hsl(343, 90%, 60%)" makeup="Red only" rank="Primary Color">
           <div class="cap"></div>
           <div class="sleeve"></div>
@@ -27,7 +27,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>Secondary Colors</legend>
+        <legend class="legend" rank="secondary"><strong>Secondary Colors</strong></legend>
         <div class="marker yellow" marker-color="Yellow Marker" rgb-color="rgb(244, 244, 61)" hex-color="#F4F43D" hsl-color="hsl(60, 90%, 60%)" makeup="Red + Green" rank="Secondary Color">
           <div class="cap"></div>
           <div class="sleeve"></div>
@@ -43,7 +43,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>Tertiary Colors</legend>
+        <legend class="legend" rank="tertiary"><strong>Tertiary Colors</strong></legend>
         <div class="marker orange" marker-color="Orange Marker" rgb-color="rgb(244, 137, 61)" hex-color="#F4893D" hsl-color="hsl(25, 90%, 60%)" makeup="Red + Yellow" rank="Tertiary Color">
           <div class="cap"></div>
           <div class="sleeve"></div>
@@ -72,6 +72,7 @@
     </div>
 
     <div id="tooltip"></div>
+    <div id="legend-description"></div>
     <script src="script.js"></script>
   </body>
 </html>

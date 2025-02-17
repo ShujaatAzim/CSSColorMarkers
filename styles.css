@@ -4,7 +4,7 @@ h1 {
 
 fieldset {
   margin: auto;
-  width: 50%;
+  width: 30%;
 }
 
 .container {
@@ -95,9 +95,9 @@ fieldset {
   box-shadow: 0 0 20px 0 rgb(82, 25, 52);
 }
 
-#tooltip {
+#tooltip, #legend-description {
   position: absolute;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.65);
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
