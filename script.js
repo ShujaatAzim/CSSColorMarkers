@@ -37,7 +37,7 @@ document.querySelectorAll(".legend").forEach(legend => {
         legendContent = "Secondary colors are made by combining two primary colors together in equal parts.";
         break;
       case "tertiary":
-        legendContent = "Tertiary colors are made by combining a primary color with a secondary color.";
+        legendContent = "Tertiary colors are made by combining a primary color with a secondary color.\nHowever, mixing a primary color with a complementary secondary color makes\nwhite, thus there are only six tertiary colors rather than nine.";
         break;
       default:
         legendContent = '';
