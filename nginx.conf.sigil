@@ -1,0 +1,15 @@
+server {
+  listen 5000;
+  server_name _;
+
+  location / {
+      root /app;  # Serve files from the project root
+      index index.html;
+      try_files $uri /index.html;
+  }
+
+  location / {
+      root /app;  # Ensures all static files (CSS, JS, images) are served
+  }
+}
+
